@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <section class="sub-nav d-none d-lg-block">
+            <!-- contact-header -->
+            <nav class="navbar navbar-expand-lg bg-white color-gray-text font-size-12">
+                    <div class="container">
+                        <nav class="collapse navbar-collapse justify-content-between">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">
+                                        <i class="fa-solid fa-phone px-0"></i>
+                                        0962.180.180
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        info@vmms.vn
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Mở từ 8:00 đến 20:30(Tất cả các ngày trong tuần)
+                                    </a>
+                                </li>
+                                </ul>
+                            </div>
+                            <div class="sub-drop ">
+                                <li class="nav-item dropdown fl-rg " style="list-style-type: none;">
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tiếng Việt
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
+                                    <li><a class="dropdown-item" href="#">Tiếng Anh</a></li>
+                                    
+                                </ul>
+                                </li>
+                            </div>
+                        </div>
+                        </div>
+                    </nav>
+                    <!-- end-contact-header -->
+                    <section class="navbar-second border-top">
+                        <!-- center-contact-header -->
+                        <nav class="navbar bg-light">
+                            <div class="container">
+                                <img src="/asset/images/logovmms.png" alt="logovmms" class="img-fluid" >
+                                <form class="d-flex" role="search">
+                                    <div class="input-group mb-3 w-76 pt-3">
+                                        <input type="text" class="form-control" placeholder="infor@vmms.vn">
+                                        <button class="input-infor-footer px-3 bg-blue">
+                                            <a href="" class="text-center">
+                                                <i class="fa-solid fa-envelope color-white"></i>
+                                            </a>
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="cart-login d-flex">
+                                    <div class="account d-flex">
+                                        <i class="fa-solid fa-user" ></i>
+                                        <div class="sign-in">
+                                            <a class="navbar-brand">Tài Khoản</a>
+                                            <a href="#" class="nav-link pd-lft">Đăng nhập/Đăng ký</a>
+                                        </div>
+                                    </div>
+                                    <div class="cart d-flex">
+                                        <div class="mini-icon">
+                                            <i class="fa-solid fa-cart-shopping " ></i>
+                                            <div class="icon-mini">
+                                            <p>3</p>
+                                            </div>
+                                        </div>
+                                        <!-- <sup style="position: absolute;">3</sup> -->
+                                        <div class="money">
+                                        <a href="#" class="navbar-brand">Giỏ hàng</a>
+                                            <a href="#" class="nav-link">10.000.000 VND</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- end-center-contact-header -->
+                    </section>
+                    <section class="navbar-second border-top fw-light lh-sm">
+                        <!-- buttom-header -->
+                        <nav class="navbar p-3 fs-5 bg-blue ">
+                            <div class="container">
+                                <div class="list-menu">
+                                    <ul class="nav">
+                                        <li class="nav-item ">
+                                            <div class="list-item d-flex">
+                                                <div class="list-content">
+                                                    <i class="fa-solid fa-list text-white "></i>
+                                                    <a class="navbar-brand text-white" aria-current="page" href="#">Danh mục sản phẩm</a>
+                                                </div>
+                                             </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="nav justify-content-end fs-5 fw-light">
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white" href="#">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white" href="#">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white">Sản phẩm</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white">Khuyến mãi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white">Hướng dẫn mua hàng</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand text-white">Liên hệ</a>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </nav>
+                        <!-- end-buttom-header -->
+                    </section>
+                </nav>
+        </section>
+    </header>
+    <!-- end-header -->
+    <!-- begin-slider -->
+    <section>
+        <div class="container py-5">
+            <!-- slider -->
+            <div class="row">
+                <div class="col-8">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="asset/images/banner-slide.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="asset/images/banner-slide.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="asset/images/banner-slide.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <a href="">
+                            <img src="asset/images/banner-1.png" alt="" class="w-100">
+                        </a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="">
+                            <img src="asset/images/banner-2.png" alt="" class="w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end-slider -->
+            <div class="conlist">
+                <!-- Danh muc -->
+                <div class="list mt-4 px-0 ">
+                            <div class=" d-flex pdcard" >
+                                <div class="card" style="width: 13rem;">
+                                    <img src="asset/images/danhmuc1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Dược phẩm</h5>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 13rem;">
+                                    <img src="asset/images/danhmuc2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Vitamin</h5>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 13rem;">
+                                    <img src="asset/images/danhmuc3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Covid 19</h5>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 13rem;">
+                                    <img src="asset/images/danhmuc4.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Thiết bị y tế</h5>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 13rem;">
+                                    <img src="asset/images/danhmuc5.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Tinh dầu</h5>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 13rem;">
+                                    <img src="asset/images/danhmuc6.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Sữa tắm</h5>
+                                    </div>
+                                </div>
+                            </div> 
+                </div>
+                <!-- end-danh muc -->
+            </div>
+
+        </div>
+    </section>
+    <!-- Seller-now -->
+    <section>
+        <nav class="hot-deal bg-blue-sea p-2">
+            <div class="container position-relative">
+                <div class="deal bg-white rounded p-4">
+                    <div class="deal-1 d-flex">
+                        <div class="deal-2 d-flex fnw-25 ">
+                            <i class="fa-solid fa-cloud-bolt py-2 "></i>
+                            <div class="deal-shock px-3 ">
+                                <p>Giá sốc hôm nay</p>
+                            </div>
+                            <p id="cound-down" class="fnw-25 px-4"></p>
+                        </div>
+                            <div class="view-deal-hot d-flex point-t">
+                                <div class="view-text">
+                                    <p>Xem deal hot ngay</p>
+                                </div>
+                                <i class="fa-solid fa-chevron-right py-1 px-2" ></i>
+                            </div>
+                    </div>
+                    <!-- end hotdeal -->
+                    <div class="owl-carousel owl-theme point-t">
+                        <div class="card border-0">
+                            <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <img src="asset/images/sp2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4">
+                                        <span>420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <img src="asset/images/sp3.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4">
+                                            <span>420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <img src="asset/images/sp4.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <div class="prive d-flex">
+                                    <span class="price-product fs-4">
+                                        <span>420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prew position-absolute ">
+                        <div class="bg-blue-sea-1 d-flex rounded-flexing p-2">
+                            <img src="asset/images/bnt-slide.png" alt="">
+                        </div>
+                </div>
+                <div class="prew-next position-absolute ">
+                    <div class="bg-blue-sea-1 d-flex rounded-flexing p-2">
+                        <img src="asset/images/btn-slide-right.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Top seller -->
+    <section>
+        <div class="container py-5">
+            <div class="top-seller">
+                <div class="header-text-seller d-flex justify-content-between">
+                    <div class="text-seller fs-4 fw-bold">
+                        <p>Top sản phẩm bán chạy nhất</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col ">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- New-product -->
+    <section>
+        <div class="container">
+            <div class="new-product">
+                <div class="header-text-seller d-flex justify-content-between">
+                    <div class="text-seller fs-4 fw-bold">
+                        <p>Sản phẩm mới</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col ">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp2.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <div class="text-hv">
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4 ">
+                                            <span class="price-product-mini">420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp4.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp4.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-1">
+                            <div class="ratio ratio-1x1">
+                                <img src="asset/images/sp5.png" alt="" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <div class="sale-25">
+                                    <span class="d-flex">25% GIẢM</span>
+                                </div>
+                                <h4>Tên Sản phẩm</h4>
+                                <div class="price d-flex">
+                                    <span class="price-product fs-4 ">
+                                        <span class="price-product-mini">420.000đ</span>
+                                    </span>
+                                    <span class="price-product-mini fsz-18">590.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </section>
+    <!-- Best Seller -->
+    <section>
+        <div class="container pt-5">
+            <div class="best-seller">
+                <div class="header-text-seller d-flex justify-content-between">
+                    <div class="text-seller fs-4 fw-bold">
+                        <p>Sản phẩm bán chạy nhất</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                    <div class="besr-seller-slide pt-5">
+                        <div class="owl-carousel owl-theme point-t">
+                            <div class="card border-0">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="sale-25">
+                                        <span class="d-flex">25% GIẢM</span>
+                                    </div>
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4 ">
+                                            <span class="price-product-mini">420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/sp2.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="sale-25">
+                                        <span class="d-flex">25% GIẢM</span>
+                                    </div>
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4">
+                                            <span>420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- only-VMMS -->
+    <section>
+        <div class="container pt-5">
+            <div class="only-vmms">
+                <div class="header-text-only-vmms d-flex justify-content-between">
+                    <div class="text-only-vmms fs-4 fw-bold">
+                        <p>Chỉ có tại VMMS</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                    <div class="only-vmms-slide pt-5">
+                        <div class="owl-carousel owl-theme point-t">
+                            <div class="card border-0">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="sale-25">
+                                        <span class="d-flex">25% GIẢM</span>
+                                    </div>
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4 ">
+                                            <span class="price-product-mini">420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/sp2.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="sale-25">
+                                        <span class="d-flex">25% GIẢM</span>
+                                    </div>
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4">
+                                            <span>420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sugest-product -->
+    <section>
+        <div class="container pt-5">
+            <div class="suggets-product">
+                <div class="header-text-suggets-product d-flex justify-content-between">
+                    <div class="text-suggets-product fs-4 fw-bold">
+                        <p>Sản phẩm bán chạy nhất</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                    <div class="suggets-product-slide pt-5">
+                        <div class="owl-carousel owl-theme point-t">
+                            <div class="card border-0">
+                                <img src="asset/images/sp1.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="sale-25">
+                                        <span class="d-flex">25% GIẢM</span>
+                                    </div>
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4 ">
+                                            <span class="price-product-mini">420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/sp2.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="sale-25">
+                                        <span class="d-flex">25% GIẢM</span>
+                                    </div>
+                                    <h4>Tên Sản phẩm</h4>
+                                    <div class="price d-flex">
+                                        <span class="price-product fs-4">
+                                            <span>420.000đ</span>
+                                        </span>
+                                        <span class="price-product-mini fsz-18">590.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- New-hot -->
+    <section>
+        <div class="container pt-5">
+            <div class="new-seller">
+                <div class="header-text-new d-flex justify-content-between">
+                    <div class="text-new fs-4 fw-bold">
+                        <p>Tin Tức nổi bật</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                    <div class="new-slide pt-4">
+                        <div class="owl-carousel owl-theme point-t">
+                            <div class="card border-0">
+                                <img src="asset/images/news1.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="date">
+                                        <span class="date-28-5">28 05</span>
+                                    </div>
+                                    <p class="card-text">Hướng dẫn điều trị Covid-19 tại nhà cho trẻ em trên 1 tuổi!</p>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/news2.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="date">
+                                        <span class="date-28-5">28 05</span>
+                                    </div>
+                                    <p class="card-text">Đối tượng quản lý, cách chăm sóc F0 tại nhà!</p>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/news3.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="date">
+                                        <span class="date-28-5">28 05</span>
+                                    </div>
+                                    <p class="card-text ">Nhân tố tạo nên sự khác biệt của tinh dầu hoa anh thảo</p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand -->
+    <section>
+        <div class="container pt-5 position-relative">
+            <div class="brand">
+                <div class="header-text-brand d-flex justify-content-between">
+                    <div class="text-brand fs-4 fw-bold">
+                        <p>Thương hiệu nổi bật</p>
+                    </div>
+                    <div class="view-all d-flex fw-bold">
+                        <p>Xem tất cả</p>
+                        <i class="fa-solid fa-chevron-right py-1 px-2"></i>
+                    </div>
+                </div>
+                    <div class="new-slide pt-4">
+                        <div class="owl-carousel owl-theme point-t">
+                            <div class="card border-0">
+                                <img src="asset/images/brand3.png" alt="" class="card-img-top">
+                                
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/brand2.png" alt="" class="card-img-top" style="width: 17rem;">
+                                
+                            </div>
+                            <div class="card border-0">
+                                <img src="asset/images/brand3.png" alt="" class="card-img-top">
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" pt-5">
+        <section class="footer-info-support bg-white">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 justify-content-between align-items-center py-4 ">
+                    <div class="col ">
+                        <div class="d-flex">
+                            <i class="fa-solid fa-truck-fast fs-1 pt-2 px-2 cl-blue"></i>
+                            <div class="text-header-footer">
+                                <div class="fs-5">Miễn phí vận chuyển</div>
+                                <span class="mini-text">Áp dụng cho đơn hàng trên 500.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <i class="fa-solid fa-arrows-rotate fs-1 pt-2 px-2 cl-blue"></i>
+                            <div class="text-header-footer">
+                                <div class="fs-3">Hỗ trợ đổi trả hàng</div>
+                                <span class="mini-text">Trong vòng 30 ngày</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pt-3">
+                        <div class="d-flex">
+                            <i class="fa-solid fa-heart-pulse fs-1 pt-2 px-2 cl-blue"></i>
+                            <div class="text-header-footer">
+                                <div class="fs-3">Nhà thuốc gần bạn</div>
+                                <span class="mini-text">Tìm ngay nhà thuốc gần nơi bạn sống và ghé thăm</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pt-3">
+                        <div class="d-flex">
+                            <i class="fa-solid fa-headset fs-1 pt-2 px-2 cl-blue"></i>
+                            <div class="text-header-footer">
+                                <div class="fs-3">Tài khoản</div>
+                                <span class="mini-text">Phản hồi về dịch vụ của VMMS: 0962.180.180</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-2">
+            <div class="container pb-2">
+                <div class="row pt-4">
+                    <div class="col-sm-12 col-lg-5 text-break">
+                        <div class="img-logo-footer pb-4">
+                            <img src="asset/images/logovmms.png" alt="logovmms">
+                        </div>
+                        <p class="text-footer">
+                            VMMS là công ty du lịch trực tuyến hàng đầu Việt Nam với sự đáp ứng đa dạng các nhu cầu du lịch trên một nền tảng, giúp khách hàng có những chuyến du lịch chất lượng tuyệt vời.
+                        </p>
+                        <h6 class="fw-bold">THÔNG TIN LIÊN HỆ</h6>
+                        <div class="company-info">
+                            <div class="info-c d-flex pb-3 pt-2">
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot px-0 pt-1"></i>
+                                        Tầng 3 số 14 Pháo Đài Láng, Đống Đa, Hà Nội</a>
+                            </div>
+                            <div class="info-c d-flex pb-3">
+                                    <a href="">
+                                        <i class="fa-solid fa-phone px-0 pt-1"></i>
+                                        0962.180.180</a>
+                            </div>
+                            <div class="info-c ">
+                                    <a href="">
+                                        <i class="fa-solid fa-envelope px-0 pt-1"></i>
+                                        infor@vmms.vn
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="check pt-3">
+                            <img src="asset/images/thongbaobocongthuong.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-7">
+                        <div class="row text-start  mt-xs-3 mt-md-2 mt-lg-0">
+                            <div class="col-sm-12 col-md-4">
+                                <h6 class="text-uppercase mb-4 fw-bold">
+                                    LIÊN KẾT NHANH
+                                </h6>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Hướng dẫn mua hàng
+                                    </a>
+                                </p>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Câu hỏi thường gặp
+                                    </a>
+                                </p>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Phương thức thanh toán
+                                    </a>
+                                </p>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Liên hệ
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <h6 class="text-uppercase mb-4 fw-bold">
+                                    CHÍNH SÁCH
+                                </h6>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Chính sách bảo mật
+                                    </a>
+                                </p>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Chính sách giao hàng
+                                    </a>
+                                </p>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Chính sách đổi trả
+                                    </a>
+                                </p>
+                                <p class="color-gray-text">
+                                    <a href="">
+                                        <i class="fa-solid fa-caret-right me-2"></i>
+                                        Chính sách bảo hành
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-7 mt-4">
+                                <h6 class="text-uppercase">Đăng kí nhận tin của chúng tôi</h6>
+                                <div class="input-group mb-3 w-75">
+                                    <input type="text" class="form-control" placeholder="infor@vmms.vn">
+                                    <button class="input-infor-footer px-3 bg-blue">
+                                        <a href="" class="text-center">
+                                            <i class="fa-solid fa-envelope color-white"></i>
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="connect-social col-sm-12 col-md-5 text-center mt-4">
+                                <h6 class="text-uppercase">kết nối với chúng tôi</h6>
+                                <div class="connect-social-icon font-size-20 d-flex justify-content-center ">
+                                    <p class="mx-1"><i class="fa-brands fa-facebook-f"></i></p>
+                                    <p class="mx-1"><i class="fa-brands fa-twitter"></i></p>
+                                    <p class="mx-1"><i class="fa-brands fa-instagram"></i></p>
+                                    <p class="mx-1"><i class="fa-brands fa-youtube"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <nav class="container border-top pt-3">
+                <div class="text-center font-size-10">
+                  <p>
+                    Copyright © 2022 -
+                    <a href="" class="font-size-10">Công ty Cổ phần dịch vụ Truyền thông Đa phương tiện Việt Nam (VMMS)</a>
+                    </p>
+                </div>
+              </nav>
+        </section>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/main.js"></script>    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
+</body>
+</html>
